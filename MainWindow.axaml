@@ -1,0 +1,48 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="to_do.MainWindow"
+        Title="to_do">
+    <Window.Styles>
+        
+    </Window.Styles>
+    
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height=".4*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    Background="Green">
+            <TextBlock Background="Black" Foreground="White"
+                       VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Width="">
+                asdasdasdasdasd
+            </TextBlock>
+        </StackPanel>
+        
+        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0"
+                    Background="Black">
+            
+        </StackPanel>
+        
+        <StackPanel Name="Main" Grid.Row="1" Grid.Column="1"
+                    Background="Gray">
+            
+        </StackPanel>
+        
+        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0"
+                    Background="Yellow">
+            
+        </StackPanel>
+    </Grid>
+</Window>
