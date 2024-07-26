@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r3A6l+bkTrKlnq/LLxODUMuC6+NWISGOoaMv6qEDC/pZoB3/X+jNUeFlZ90Cz/tohCKvSH+ujXpYuCNLZCyU4w==",
+  "dgSpecHash": "SIEVI7O5SQZVcOOcVCURScgYIoUFKia2jxjaCRXiD5AqB0poF8ttVOGqECBR6q2bXKp3Vq8xLKOpIjvdDsFxSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\redmi\\RiderProjects\\to-do\\to-do.csproj",
+  "projectFilePath": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\to-do.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\redmi\\.nuget\\packages\\avalonia\\11.1.0\\avalonia.11.1.0.nupkg.sha512",
     "C:\\Users\\redmi\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

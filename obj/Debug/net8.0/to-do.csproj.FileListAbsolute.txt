@@ -65,6 +65,3 @@ C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\refint\Avalonia\to-do.dll
 C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\to-do.csproj.Up2Date
 C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\to-do.genruntimeconfig.cache
 C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\ref\to-do.dll
-C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\to-do.dll
-C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\refint\to-do.dll
-C:\Users\redmi\RiderProjects\to-do\obj\Debug\net8.0\to-do.pdb

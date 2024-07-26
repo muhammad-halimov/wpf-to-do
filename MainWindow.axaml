@@ -2,46 +2,55 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" MinWidth="640" MinHeight="720"
         x:Class="to_do.MainWindow"
         Title="to_do">
     <Window.Styles>
+        <Style Selector="TextBlock.headerTextBlock">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
         
+        <Style Selector="Border.headerStackPanelBorder">
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="CornerRadius" Value="3"></Setter>
+            <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="MinWidth" Value="100"></Setter>
+            <Setter Property="MaxWidth" Value="600"></Setter>
+        </Style>
     </Window.Styles>
     
-    <Grid ShowGridLines="True">
+    <Grid ShowGridLines="True" Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height=".2*"></RowDefinition>
+            <RowDefinition Height=".12*"></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition Height=".4*"></RowDefinition>
+            <RowDefinition Height=".25*"></RowDefinition>
         </Grid.RowDefinitions>
         
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width=".2*"></ColumnDefinition>
+            <ColumnDefinition Width=".3*"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
-                    Background="Green">
-            <TextBlock Background="Black" Foreground="White"
-                       VerticalAlignment="Center" HorizontalAlignment="Center"
-                       Width="">
-                asdasdasdasdasd
-            </TextBlock>
-        </StackPanel>
-        
-        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0"
-                    Background="Black">
+        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Border Classes="headerStackPanelBorder">
+                <TextBlock Classes="headerTextBlock">
+                    WPF TO-DO
+                </TextBlock>
+            </Border>
             
         </StackPanel>
         
-        <StackPanel Name="Main" Grid.Row="1" Grid.Column="1"
-                    Background="Gray">
+        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
             
         </StackPanel>
         
-        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0"
-                    Background="Yellow">
+        <StackPanel Name="Main" Grid.Row="1" Grid.Column="1">
+            
+        </StackPanel>
+        
+        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0">
             
         </StackPanel>
     </Grid>

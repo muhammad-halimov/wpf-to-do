@@ -1478,11 +1478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redmi\\RiderProjects\\to-do\\to-do.csproj",
+      "projectUniqueName": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\to-do.csproj",
       "projectName": "to-do",
-      "projectPath": "C:\\Users\\redmi\\RiderProjects\\to-do\\to-do.csproj",
+      "projectPath": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\to-do.csproj",
       "packagesPath": "C:\\Users\\redmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redmi\\RiderProjects\\to-do\\obj\\",
+      "outputPath": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
