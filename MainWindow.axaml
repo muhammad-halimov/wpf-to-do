@@ -3,50 +3,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:system="clr-namespace:System;assembly=System.Runtime"
+    Icon="./src/media/img/favicon.ico"
     mc:Ignorable="d" Width="700" Height="700" MinWidth="700" MinHeight="700"
     x:Class="to_do.MainWindow"
     Title="WPF TO-DO App">
     <Window.Styles>
-        <Style Selector="TextBlock.headerTextBlock">
-            <Setter Property="Background" Value="Transparent"></Setter>
-            <Setter Property="Foreground" Value="White"></Setter>
-        </Style>
-        <Style Selector="TextBlock.sidebarTextBlock">
-            <Setter Property="Background" Value="Transparent"></Setter>
-            <Setter Property="Foreground" Value="White"></Setter>
-        </Style>
-        <Style Selector="TextBlock.footerTextBlock">
-            <Setter Property="Background" Value="Transparent"></Setter>
-            <Setter Property="Foreground" Value="White"></Setter>
-        </Style>
-        <Style Selector="Border.headerStackPanelBorder">
-            <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="15"></Setter>
-            <Setter Property="Background" Value="Black"></Setter>
-            <Setter Property="Height" Value="85"></Setter>
-            <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
-            <Setter Property="Margin" Value="5 -10 5 0"></Setter>
-        </Style>
-        <Style Selector="Border.sidebarStackPanelBorder">
-            <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="15"></Setter>
-            <Setter Property="Background" Value="Black"></Setter>
-            <Setter Property="MinWidth" Value="100"></Setter>
-            <Setter Property="MaxWidth" Value="700"></Setter>
-            <Setter Property="Height" Value="540"></Setter>
-            <Setter Property="Margin" Value="-10 0 10 0"></Setter>
-        </Style>
-        <Style Selector="Border.footerStackPanelBorder">
-            <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="15"></Setter>
-            <Setter Property="Background" Value="Black"></Setter>
-            <Setter Property="Height" Value="85"></Setter>
-            <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
-            <Setter Property="Margin" Value="5 0 5 -10"></Setter>
-        </Style>
+        <StyleInclude Source="src/styles/Main.axaml"/>
     </Window.Styles>
-    <Grid ShowGridLines="True" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.30*">
+    <Grid ShowGridLines="True" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.3*">
         <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top">
             <Border Classes="headerStackPanelBorder">
                 <TextBlock Classes="headerTextBlock" TextAlignment="Center" Margin="0 20">HEADER</TextBlock>

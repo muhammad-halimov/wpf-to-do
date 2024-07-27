@@ -1,0 +1,48 @@
+<Styles 
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+    <!-- Add Styles Here -->
+    <Style Selector="TextBlock.headerTextBlock">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+    </Style>
+    <Style Selector="TextBlock.sidebarTextBlock">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+    </Style>
+    <Style Selector="TextBlock.footerTextBlock">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+    </Style>
+    <Style Selector="Border.headerStackPanelBorder">
+        <Setter Property="BorderBrush" Value="Black"></Setter>
+        <Setter Property="CornerRadius" Value="15"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="MinHeight" Value="85"></Setter>
+        <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
+        <Setter Property="Margin" Value="5 -10 5 0"></Setter>
+    </Style>
+    <Style Selector="Border.sidebarStackPanelBorder">
+        <Setter Property="BorderBrush" Value="Black"></Setter>
+        <Setter Property="CornerRadius" Value="15"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="MinWidth" Value="100"></Setter>
+        <Setter Property="MaxWidth" Value="700"></Setter>
+        <Setter Property="Height" Value="540"></Setter>
+        <Setter Property="Margin" Value="-10 0 10 0"></Setter>
+    </Style>
+    <Style Selector="Border.footerStackPanelBorder">
+        <Setter Property="BorderBrush" Value="Black"></Setter>
+        <Setter Property="CornerRadius" Value="15"></Setter>
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="Height" Value="85"></Setter>
+        <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
+        <Setter Property="Margin" Value="5 0 5 -10"></Setter>
+    </Style>
+</Styles>
