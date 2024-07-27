@@ -8,4 +8,9 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    // private void WindowBase_OnResized(object? sender, WindowResizedEventArgs e)
+    // {
+    //     throw new System.NotImplementedException();
+    // }
 }
