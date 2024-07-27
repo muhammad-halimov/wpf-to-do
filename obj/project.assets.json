@@ -1472,32 +1472,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\redmi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/muhammad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\to-do.csproj",
+      "projectUniqueName": "/home/muhammad/Desktop/wpf-to-do/to-do.csproj",
       "projectName": "to-do",
-      "projectPath": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\to-do.csproj",
-      "packagesPath": "C:\\Users\\redmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redmi\\OneDrive\\Документы\\projects\\wpf-to-do\\obj\\",
+      "projectPath": "/home/muhammad/Desktop/wpf-to-do/to-do.csproj",
+      "packagesPath": "/home/muhammad/.nuget/packages/",
+      "outputPath": "/home/muhammad/Desktop/wpf-to-do/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\redmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/muhammad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1553,7 +1545,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

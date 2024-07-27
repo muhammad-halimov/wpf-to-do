@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = to-do
-build_property.ProjectDir = C:\Users\redmi\OneDrive\Документы\projects\wpf-to-do\
+build_property.ProjectDir = /home/muhammad/Desktop/wpf-to-do/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/redmi/OneDrive/Документы/projects/wpf-to-do/App.axaml]
+[/home/muhammad/Desktop/wpf-to-do/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/redmi/OneDrive/Документы/projects/wpf-to-do/MainWindow.axaml]
+[/home/muhammad/Desktop/wpf-to-do/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
