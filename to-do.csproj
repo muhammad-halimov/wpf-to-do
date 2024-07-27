@@ -20,5 +20,6 @@
     <ItemGroup>
       <Folder Include="src\media\img\" />
       <Folder Include="src\media\video\" />
+      <AvaloniaResource Include="src\**" />
     </ItemGroup>
 </Project>
