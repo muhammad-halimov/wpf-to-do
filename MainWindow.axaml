@@ -4,7 +4,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:system="clr-namespace:System;assembly=System.Runtime"
-    mc:Ignorable="d" Width="640" Height="720" MinWidth="640" MinHeight="720"
+    mc:Ignorable="d" Width="700" Height="700" MinWidth="700" MinHeight="700"
     x:Class="to_do.MainWindow"
     Title="WPF TO-DO App">
     <Window.Styles>
@@ -21,51 +21,47 @@
             <Setter Property="Foreground" Value="White"></Setter>
         </Style>
         <Style Selector="Border.headerStackPanelBorder">
-            <Setter Property="BorderThickness" Value="15"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="10"></Setter>
+            <Setter Property="CornerRadius" Value="15"></Setter>
             <Setter Property="Background" Value="Black"></Setter>
-            <Setter Property="Height" Value="75"></Setter>
+            <Setter Property="Height" Value="85"></Setter>
             <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
-            <Setter Property="Margin" Value="5 -10"></Setter>
+            <Setter Property="Margin" Value="5 -10 5 0"></Setter>
         </Style>
         <Style Selector="Border.sidebarStackPanelBorder">
-            <Setter Property="BorderThickness" Value="10"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="5"></Setter>
+            <Setter Property="CornerRadius" Value="15"></Setter>
             <Setter Property="Background" Value="Black"></Setter>
             <Setter Property="MinWidth" Value="100"></Setter>
             <Setter Property="MaxWidth" Value="700"></Setter>
-            <Setter Property="Height" Value="545"></Setter>
-            <Setter Property="Margin" Value="-5 5 0 0"></Setter>
+            <Setter Property="Height" Value="540"></Setter>
+            <Setter Property="Margin" Value="-10 0 10 0"></Setter>
         </Style>
         <Style Selector="Border.footerStackPanelBorder">
-            <Setter Property="BorderThickness" Value="10"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
-            <Setter Property="CornerRadius" Value="5"></Setter>
+            <Setter Property="CornerRadius" Value="15"></Setter>
             <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="Height" Value="85"></Setter>
             <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
-            <Setter Property="Height" Value="200"></Setter>
-            <Setter Property="Margin" Value="5  30 5 0"></Setter>
+            <Setter Property="Margin" Value="5 0 5 -10"></Setter>
         </Style>
     </Window.Styles>
-    <Grid ShowGridLines="True" Background="White" ColumnDefinitions=".3*,*" RowDefinitions=".12*,*,.25*">
-        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+    <Grid ShowGridLines="True" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.30*">
+        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top">
             <Border Classes="headerStackPanelBorder">
-                <TextBlock Classes="headerTextBlock" TextAlignment="Center">HEADER</TextBlock>
+                <TextBlock Classes="headerTextBlock" TextAlignment="Center" Margin="0 20">HEADER</TextBlock>
             </Border>
         </StackPanel>
         <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
             <Border Classes="sidebarStackPanelBorder">
-                <TextBlock Classes="sidebarTextBlock" TextAlignment="Center">SIDEBAR</TextBlock>
+                <TextBlock Classes="sidebarTextBlock" TextAlignment="Center" Margin="0 20">SIDEBAR</TextBlock>
             </Border>
         </StackPanel>
         <StackPanel Name="Main" Grid.Row="1" Grid.Column="1">
-            
         </StackPanel>
-        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0">
+        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" VerticalAlignment="Bottom">
             <Border Classes="footerStackPanelBorder">
-                <TextBlock Classes="footerTextBlock" TextAlignment="Center">FOOTER</TextBlock>
+                <TextBlock Classes="footerTextBlock" TextAlignment="Center" Margin="0 20">FOOTER</TextBlock>
             </Border>
         </StackPanel>
     </Grid>
