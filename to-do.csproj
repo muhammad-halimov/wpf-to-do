@@ -16,4 +16,12 @@
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.1.0"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Styles\Main.axaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="src\media\profile\" />
+    </ItemGroup>
 </Project>

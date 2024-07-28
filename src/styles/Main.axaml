@@ -1,0 +1,33 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+    <Style Selector="Border.headerStackPanel">
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="BorderThickness" Value="1"></Setter>
+        <Setter Property="Width" Value="{x:Static system:Double.NaN}"></Setter>
+        <Setter Property="Margin" Value="7,5,7,0"></Setter>
+        <Setter Property="MinHeight" Value="50"></Setter>
+        <Setter Property="CornerRadius" Value="20"></Setter>
+    </Style>
+    
+    <Style Selector="TextBlock.headerTextBlock">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        <Setter Property="FontSize" Value="18"></Setter>
+        <Setter Property="Margin" Value="20,0,0,0"></Setter>
+    </Style>
+    
+    <Style Selector="Rectangle.headerRectangle">
+        <Setter Property="Width" Value="50"></Setter>
+        <Setter Property="Height" Value="50"></Setter>
+    </Style>
+</Styles>

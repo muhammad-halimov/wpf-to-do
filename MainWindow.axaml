@@ -4,9 +4,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" Height="700" Width="700" MinHeight="700" MinWidth="700"
         x:Class="to_do.MainWindow"
-        Title="to_do"><!-- Resized="WindowBase_OnResized" -->
+        Title="TO-DO App"><!-- Resized="WindowBase_OnResized" -->
     <Window.Styles>
-        <StyleInclude Source="Styles/Main.axaml"></StyleInclude>
+        <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>
     
     <Grid ShowGridLines="True" Background="White">
@@ -22,11 +22,13 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Border Classes="headerStackPanelBorder">
+            <Border Classes="headerStackPanel">
                 <TextBlock Classes="headerTextBlock">
-                    WPF TO-DO
+                    TO-DO
                 </TextBlock>
             </Border>
+            
+            
         </StackPanel>
         
         <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
