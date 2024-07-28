@@ -23,5 +23,6 @@
 
     <ItemGroup>
       <Folder Include="src\media\profile\" />
+      <AvaloniaResource Include="src\**" />
     </ItemGroup>
 </Project>

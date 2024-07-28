@@ -2,9 +2,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Icon="./src/media/favicon.ico"
         mc:Ignorable="d" Height="700" Width="700" MinHeight="700" MinWidth="700"
         x:Class="to_do.MainWindow"
-        Title="TO-DO App"><!-- Resized="WindowBase_OnResized" -->
+        Title="TO-DO App">
     <Window.Styles>
         <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>

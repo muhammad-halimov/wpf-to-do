@@ -201,6 +201,3 @@ C:/Users/redmi/OneDrive/Документы/projects/wpf-to-do/obj/Debug/net8.0/r
 /home/kirill/projects/wpf-to-do/obj/Debug/net8.0/to-do.csproj.CopyComplete
 /home/kirill/projects/wpf-to-do/obj/Debug/net8.0/to-do.genruntimeconfig.cache
 /home/kirill/projects/wpf-to-do/obj/Debug/net8.0/ref/to-do.dll
-/home/kirill/projects/wpf-to-do/obj/Debug/net8.0/to-do.dll
-/home/kirill/projects/wpf-to-do/obj/Debug/net8.0/refint/to-do.dll
-/home/kirill/projects/wpf-to-do/obj/Debug/net8.0/to-do.pdb
