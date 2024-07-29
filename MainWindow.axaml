@@ -22,15 +22,17 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Border Classes="headerStackPanel">
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Classes="headerStackPanel">
+            <StackPanel Name="Header" Orientation="Horizontal"
+                        MinWidth="500">
                 <TextBlock Classes="headerTextBlock">
                     TO-DO
                 </TextBlock>
-            </Border>
-            
-            
-        </StackPanel>
+                
+                <Image Source="src/media/favicon.ico"
+                       HorizontalAlignment="Right"></Image>
+            </StackPanel>
+        </Border>
         
         <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
         </StackPanel>
