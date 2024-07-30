@@ -1,0 +1,32 @@
+<Window 
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Icon="./src/media/img/favicon.ico"
+    mc:Ignorable="d" Width="700" Height="700" MinWidth="700" MinHeight="700"
+    x:Class="to_do.MainWindow"
+    Title="WPF TO-DO App">
+    <Window.Styles>
+        <StyleInclude Source="src/styles/Main.axaml"/>
+    </Window.Styles>
+    <Grid ShowGridLines="False" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.3*">
+        <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top">
+            <Border Classes="headerStackPanelBorder">
+                <TextBlock Classes="headerTextBlock" TextAlignment="Center" Margin="0 20">HEADER</TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
+            <Border Classes="sidebarStackPanelBorder">
+                <TextBlock Classes="sidebarTextBlock" TextAlignment="Center" Margin="0 20">SIDEBAR</TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Name="Main" Grid.Row="1" Grid.Column="1">
+        </StackPanel>
+        <StackPanel Name="Footer" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" VerticalAlignment="Bottom">
+            <Border Classes="footerStackPanelBorder">
+                <TextBlock Classes="footerTextBlock" TextAlignment="Center" Margin="0 20">FOOTER</TextBlock>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
