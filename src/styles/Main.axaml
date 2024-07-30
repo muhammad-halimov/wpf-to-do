@@ -11,8 +11,6 @@
     <Style Selector="Border.headerStackPanel">
         <Setter Property="Background" Value="Black"></Setter>
         <Setter Property="BorderThickness" Value="1"></Setter>
-        <Setter Property="MinWidth" Value="500"></Setter>
-        <Setter Property="MinHeight" Value="50"></Setter>
         <Setter Property="Margin" Value="7,5,7,0"></Setter>
         <Setter Property="CornerRadius" Value="20"></Setter>
     </Style>
@@ -23,7 +21,6 @@
         <Setter Property="HorizontalAlignment" Value="Left"></Setter>
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
         <Setter Property="FontSize" Value="18"></Setter>
-        <Setter Property="MinWidth" Value="610"></Setter>
         <Setter Property="Margin" Value="20,0,0,0"></Setter>
     </Style>
     

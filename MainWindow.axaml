@@ -5,7 +5,8 @@
         Icon="./src/media/favicon.ico"
         mc:Ignorable="d" Height="700" Width="700" MinHeight="700" MinWidth="700"
         x:Class="to_do.MainWindow"
-        Title="TO-DO App">
+        Title="TO-DO App"
+        SizeChanged="Control_OnSizeChanged">
     <Window.Styles>
         <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>
@@ -23,14 +24,12 @@
         </Grid.ColumnDefinitions>
         
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Classes="headerStackPanel">
-            <StackPanel Name="Header" Orientation="Horizontal"
-                        MinWidth="500">
+            <Panel Name="Header">
                 <TextBlock Classes="headerTextBlock">
                     TO-DO                </TextBlock>
                 
-                <Image Source="src/media/favicon.ico"
-                       HorizontalAlignment="Right"></Image>
-            </StackPanel>
+                <Image Source="src/media/favicon.ico" HorizontalAlignment="Right"></Image>
+            </Panel>
         </Border>
         
         <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">

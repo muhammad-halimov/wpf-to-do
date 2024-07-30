@@ -9,8 +9,15 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    // private void WindowBase_OnResized(object? sender, WindowResizedEventArgs e)
-    // {
-    //     throw new System.NotImplementedException();
-    // }
+    private static int ChangingTextSize(int canvasSize, int fontSize)
+    {
+        int newSize = 0;
+        
+        return newSize;
+    }
+
+    private void Control_OnSizeChanged(object? sender, SizeChangedEventArgs e)
+    {
+        
+    }
 }
