@@ -10,13 +10,13 @@
     <Window.Styles>
         <StyleInclude Source="src/styles/Main.axaml"/>
     </Window.Styles>
-    <Grid ShowGridLines="True" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.3*">
+    <Grid ShowGridLines="False" Background="White" ColumnDefinitions=".15*,*" RowDefinitions=".30*,2*,.3*">
         <StackPanel Name="Header" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top">
             <Border Classes="headerStackPanelBorder">
                 <TextBlock Classes="headerTextBlock" TextAlignment="Center" Margin="0 20">HEADER</TextBlock>
             </Border>
         </StackPanel>
-        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
+        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
             <Border Classes="sidebarStackPanelBorder">
                 <TextBlock Classes="sidebarTextBlock" TextAlignment="Center" Margin="0 20">SIDEBAR</TextBlock>
             </Border>
