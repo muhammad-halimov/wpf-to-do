@@ -7,6 +7,9 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
+        MinHeight = Height - 1;
+        MinWidth = Width - 1;
     }
 
     private static int ChangingTextSize(int canvasSize, int fontSize)

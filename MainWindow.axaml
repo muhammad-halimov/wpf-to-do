@@ -3,7 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         Icon="./src/media/favicon.ico"
-        mc:Ignorable="d" Height="700" Width="700" MinHeight="700" MinWidth="700"
+        mc:Ignorable="d" Height="700" Width="700"
         x:Class="to_do.MainWindow"
         Title="TO-DO App"
         SizeChanged="Control_OnSizeChanged">
@@ -28,12 +28,17 @@
                 <TextBlock Classes="headerTextBlock">
                     TO-DO                </TextBlock>
                 
-                <Image Source="src/media/favicon.ico" HorizontalAlignment="Right"></Image>
+                <Border Classes="headerImage">
+                    <Image Source="src/media/view_11-wallpaper-2880x1620.png"></Image>
+                </Border>
             </Panel>
         </Border>
         
-        <StackPanel Name="SideBar" Grid.Row="1" Grid.Column="0">
-        </StackPanel>
+        <Border Grid.Row="1" Grid.Column="0" Classes="sideBarBorder">
+            <Panel Name="SideBar">
+                
+            </Panel>
+        </Border>
         
         <StackPanel Name="Main" Grid.Row="1" Grid.Column="1">
         </StackPanel>

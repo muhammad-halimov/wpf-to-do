@@ -7,7 +7,7 @@
         </Border>
     </Design.PreviewWith>
 
-    <!-- Add Styles Here -->
+    <!-- Header -->
     <Style Selector="Border.headerStackPanel">
         <Setter Property="Background" Value="Black"></Setter>
         <Setter Property="BorderThickness" Value="1"></Setter>
@@ -24,8 +24,18 @@
         <Setter Property="Margin" Value="20,0,0,0"></Setter>
     </Style>
     
-    <Style Selector="Rectangle.headerRectangle">
-        <Setter Property="Width" Value="50"></Setter>
-        <Setter Property="Height" Value="50"></Setter>
+    <Style Selector="Border.headerImage">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="CornerRadius" Value="30"></Setter>
+        <Setter Property="ClipToBounds" Value="True"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Right"></Setter>
     </Style>
+    
+    <!-- SideBar -->
+    <Style Selector="Border.sideBarBorder">
+        
+    </Style>
+    <!--Main-->
+    
+    <!--Footer-->
 </Styles>
