@@ -6,7 +6,7 @@
         mc:Ignorable="d" Height="700" Width="700"
         x:Class="to_do.MainWindow"
         Title="TO-DO App"
-        SizeChanged="Control_OnSizeChanged">
+        Resized="WindowBase_OnResized"><!--SizeChanged="Control_OnSizeChanged">-->
     <Window.Styles>
         <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>
@@ -25,7 +25,7 @@
         
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Classes="headerStackPanel">
             <Panel Name="Header">
-                <TextBlock Classes="headerTextBlock">TO-DO</TextBlock>
+                <TextBlock Name="HeaderTextBlock" Classes="headerTextBlock">TO-DO</TextBlock>
                 
                 <Border Classes="headerImage">
                     <Image Source="src/media/favicon.ico"></Image>
@@ -35,7 +35,7 @@
         
         <Border Grid.Row="1" Grid.Column="0" Classes="sideBarBorder">
             <StackPanel Name="SideBar">
-                <TextBlock Classes="sideBarTextBox">Category 1</TextBlock>
+                <TextBlock Name="Block1" Classes="sideBarTextBox">Category 1</TextBlock>
                 <TextBlock Classes="sideBarTextBox">Category 2</TextBlock>
                 <TextBlock Classes="sideBarTextBox">Category 3</TextBlock>
             </StackPanel>
