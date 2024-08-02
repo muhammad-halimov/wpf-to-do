@@ -11,7 +11,7 @@
     <Style Selector="Border.headerStackPanel">
         <Setter Property="Background" Value="Black"></Setter>
         <Setter Property="BorderThickness" Value="1"></Setter>
-        <Setter Property="Margin" Value="7,5,7,0"></Setter>
+        <Setter Property="Margin" Value="7,5,7,5"></Setter>
         <Setter Property="CornerRadius" Value="20"></Setter>
     </Style>
     
@@ -33,7 +33,17 @@
     
     <!-- SideBar -->
     <Style Selector="Border.sideBarBorder">
-        
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="BorderThickness" Value="1"></Setter>
+        <Setter Property="CornerRadius" Value="10"></Setter>
+        <Setter Property="Margin" Value="7,5,5,5"></Setter>
+    </Style>
+    
+    <Style Selector="TextBlock.sideBarTextBox">
+        <Setter Property="Margin" Value="0,5,0,5"></Setter>
+        <Setter Property="TextAlignment" Value="Center"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        <Setter Property="FontSize" Value="16"></Setter>
     </Style>
     <!--Main-->
     

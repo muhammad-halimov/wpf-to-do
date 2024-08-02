@@ -11,7 +11,7 @@
         <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>
     
-    <Grid ShowGridLines="True" Background="White">
+    <Grid ShowGridLines="False" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height=".12*"></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -25,19 +25,20 @@
         
         <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Classes="headerStackPanel">
             <Panel Name="Header">
-                <TextBlock Classes="headerTextBlock">
-                    TO-DO                </TextBlock>
+                <TextBlock Classes="headerTextBlock">TO-DO</TextBlock>
                 
                 <Border Classes="headerImage">
-                    <Image Source="src/media/view_11-wallpaper-2880x1620.png"></Image>
+                    <Image Source="src/media/favicon.ico"></Image>
                 </Border>
             </Panel>
         </Border>
         
         <Border Grid.Row="1" Grid.Column="0" Classes="sideBarBorder">
-            <Panel Name="SideBar">
-                
-            </Panel>
+            <StackPanel Name="SideBar">
+                <TextBlock Classes="sideBarTextBox">Category 1</TextBlock>
+                <TextBlock Classes="sideBarTextBox">Category 2</TextBlock>
+                <TextBlock Classes="sideBarTextBox">Category 3</TextBlock>
+            </StackPanel>
         </Border>
         
         <StackPanel Name="Main" Grid.Row="1" Grid.Column="1">
