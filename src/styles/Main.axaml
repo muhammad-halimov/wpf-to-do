@@ -20,8 +20,8 @@
         <Setter Property="Foreground" Value="White"></Setter>
         <Setter Property="HorizontalAlignment" Value="Left"></Setter>
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
-        <Setter Property="FontSize" Value="18"></Setter>
-        <Setter Property="Margin" Value="20,0,0,0"></Setter>
+        <Setter Property="Margin" Value="25,0,0,0"></Setter>
+        <Setter Property="FontSize" Value="20"></Setter>
     </Style>
     
     <Style Selector="Border.headerImage">
@@ -39,11 +39,11 @@
         <Setter Property="Margin" Value="7,5,5,5"></Setter>
     </Style>
     
-    <Style Selector="TextBlock.sideBarTextBox">
+    <Style Selector="TextBlock.sideBarTextBlock">
         <Setter Property="Margin" Value="0,5,0,5"></Setter>
         <Setter Property="TextAlignment" Value="Center"></Setter>
         <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
-        <Setter Property="FontSize" Value="16"></Setter>
+        <Setter Property="FontSize" Value="18"></Setter>
     </Style>
     <!--Main-->
     

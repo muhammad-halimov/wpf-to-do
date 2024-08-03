@@ -3,10 +3,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         Icon="./src/media/favicon.ico"
-        mc:Ignorable="d" Height="700" Width="700"
+        mc:Ignorable="d" MinHeight="700" MinWidth="700" Height="700" Width="700"
         x:Class="to_do.MainWindow"
-        Title="TO-DO App"
-        Resized="WindowBase_OnResized"><!--SizeChanged="Control_OnSizeChanged">-->
+        Title="TO-DO App">
     <Window.Styles>
         <StyleInclude Source="src/styles/Main.axaml"></StyleInclude>
     </Window.Styles>
@@ -35,9 +34,9 @@
         
         <Border Grid.Row="1" Grid.Column="0" Classes="sideBarBorder">
             <StackPanel Name="SideBar">
-                <TextBlock Name="Block1" Classes="sideBarTextBox">Category 1</TextBlock>
-                <TextBlock Classes="sideBarTextBox">Category 2</TextBlock>
-                <TextBlock Classes="sideBarTextBox">Category 3</TextBlock>
+                <TextBlock Classes="sideBarTextBlock">Category 1</TextBlock>
+                <TextBlock Classes="sideBarTextBlock">Category 2</TextBlock>
+                <TextBlock Classes="sideBarTextBlock">Category 3</TextBlock>
             </StackPanel>
         </Border>
         
